@@ -1,0 +1,263 @@
+{
+  "languages": [
+    {
+      "name": "JavaScript",
+      "usage": ["web", "mobile", "console", "games"],
+      "difficulty": 0.25,
+      "popularity": 0.95,
+      "libraries": 0.9,
+      "logo": "/logo/JavaScript-logo.png",
+      "usability": {
+        "web": 0.9,
+        "mobile": 0.3,
+        "console": 0.5,
+        "games": 0.5
+      }
+    },
+    {
+      "name": "React",
+      "usage": ["web"],
+      "difficulty": 0.65,
+      "popularity": 0.7,
+      "logo": "/logo/logo512.png",
+      "libraries": 0.6,
+      "usability": {
+        "web": 1
+      }
+    },
+    {
+      "name": "Vue",
+      "usage": ["web"],
+      "difficulty": 0.55,
+      "popularity": 0.5,
+      "logo": "/logo/vue.png",
+      "libraries": 0.6,
+      "usability": {
+        "web": 0.8
+      }
+    },
+    {
+      "name": "Angular",
+      "usage": ["web"],
+      "difficulty": 0.95,
+      "logo": "/logo/angular.png",
+      "popularity": 0.5,
+      "libraries": 0.7,
+      "usability": {
+        "web": 0.8
+      }
+    },
+    {
+      "name": "Python",
+      "usage": ["web", "desktop applications", "console", "scripting"],
+      "difficulty": 0.1,
+      "popularity": 0.9,
+      "logo": "/logo/python.png",
+      "libraries": 0.95,
+      "usability": {
+        "web": 0.6,
+        "desktop applications": 0.7,
+        "console": 0.9,
+        "scripting": 0.8
+      }
+    },
+    {
+      "name": "Java",
+      "usage": ["mobile", "desktop applications", "console", "games"],
+      "difficulty": 0.7,
+      "logo": "/logo/java.png",
+      "popularity": 0.85,
+      "libraries": 0.8,
+      "usability": {
+        "mobile": 0.8,
+        "desktop applications": 0.9,
+        "console": 0.7,
+        "games": 0.5
+      }
+    },
+    {
+      "name": "C#",
+      "usage": ["games", "desktop applications", "console"],
+      "difficulty": 0.5,
+      "popularity": 0.75,
+      "logo": "/logo/csz.png",
+      "libraries": 0.7,
+      "usability": {
+        "games": 0.9,
+        "desktop applications": 0.9,
+        "console": 0.8
+      }
+    },
+    {
+      "name": "C++",
+      "usage": ["games", "desktop applications", "console"],
+      "difficulty": 1,
+      "popularity": 0.5,
+      "libraries": 0.6,
+      "logo": "/logo/cpp.png",
+      "usability": {
+        "games": 1,
+        "desktop applications": 0.6,
+        "console": 1
+      }
+    },
+    {
+      "name": "Swift",
+      "usage": ["mobile", "desktop applications"],
+      "difficulty": 0.8,
+      "popularity": 0.7,
+      "logo": "/logo/swift.jpg",
+      "libraries": 0.5,
+      "usability": {
+        "mobile": 0.8,
+        "desktop applications": 0.7
+      }
+    },
+    {
+      "name": "Kotlin",
+      "usage": ["mobile", "desktop applications", "console", "web"],
+      "difficulty": 0.8,
+      "popularity": 0.5,
+      "logo": "/logo/kotlin.png",
+      "libraries": 0.8,
+      "usability": {
+        "mobile": 1,
+        "desktop applications": 0.5,
+        "console": 0.6,
+        "web": 0.3
+      }
+    },
+    {
+      "name": "Ruby",
+      "usage": ["web", "console", "scripting"],
+      "difficulty": 0.3,
+      "logo": "/logo/ruby.png",
+      "popularity": 0.3,
+      "libraries": 0.3,
+      "usability": {
+        "web": 0.5,
+        "console": 0.7,
+        "scripting": 0.8
+      }
+    },
+    {
+      "name": "Go",
+      "usage": ["web", "console"],
+      "difficulty": 0.3,
+      "popularity": 0.2,
+      "logo": "/logo/go.png",
+      "libraries": 0.4,
+      "usability": {
+        "web": 0.6,
+        "console": 0.7
+      }
+    },
+    {
+      "name": "PHP",
+      "usage": ["web", "console", "scripting"],
+      "difficulty": 0.65,
+      "popularity": 0.45,
+      "logo": "/logo/php.png",
+      "libraries": 0.5,
+      "usability": {
+        "web": 0.7,
+        "console": 0.6,
+        "scripting": 0.7
+      }
+    },
+    {
+      "name": "C",
+      "usage": ["desktop applications", "console", "games"],
+      "difficulty": 0.8,
+      "popularity": 0.4,
+      "libraries": 0.4,
+      "logo": "/logo/objc.png",
+      "usability": {
+        "desktop applications": 0.8,
+        "console": 0.7,
+        "games": 0.8
+      }
+    },
+    {
+      "name": "Bash",
+      "usage": ["scripting", "console"],
+      "difficulty": 0.8,
+      "logo": "/logo/bash.png",
+      "popularity": 0.3,
+      "libraries": 0.2,
+      "usability": {
+        "scripting": 1,
+        "console": 0.9
+      }
+    },
+    {
+      "name": "PowerShell",
+      "usage": ["scripting", "console"],
+      "difficulty": 0.5,
+      "popularity": 0.4,
+      "logo": "/logo/power.png",
+      "libraries": 0.4,
+      "usability": {
+        "scripting": 0.8,
+        "console": 0.8
+      }
+    },
+    {
+      "name": "React Native",
+      "usage": ["mobile", "desktop applications"],
+      "difficulty": 0.4,
+      "logo": "/logo/reactn.png",
+      "popularity": 0.4,
+      "libraries": 0.8,
+      "usability": {
+        "mobile": 0.7,
+        "desktop applications": 0.7
+      }
+    },
+    {
+      "name": "TypeScript",
+      "usage": ["web"],
+      "difficulty": 0.75,
+      "popularity": 0.7,
+      "logo": "/logo/ts.png",
+      "libraries": 0.8,
+      "usability": {
+        "web": 0.8
+      }
+    },
+    {
+      "name": "Dart",
+      "usage": ["mobile", "web"],
+      "difficulty": 0.3,
+      "popularity": 0.7,
+      "libraries": 0.5,
+      "logo": "/logo/dart.png",
+      "usability": {
+        "mobile": 0.7,
+        "web": 0.5
+      }
+    },
+    {
+      "name": "Flutter",
+      "usage": ["mobile"],
+      "difficulty": 0.2,
+      "logo": "/logo/flutter.png",
+      "popularity": 0.8,
+      "libraries": 0.4,
+      "usability": {
+        "mobile": 0.9
+      }
+    },
+    {
+      "name": "R",
+      "usage": ["scripting"],
+      "difficulty": 0.6,
+      "logo": "/logo/r.png",
+      "popularity": 0.3,
+      "libraries": 0.7,
+      "usability": {
+        "scripting": 0.8
+      }
+    }
+  ]
+}
