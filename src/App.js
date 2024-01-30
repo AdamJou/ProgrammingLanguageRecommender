@@ -38,6 +38,7 @@ const App = () => {
     alignItems: "center",
     backgroundColor: "#f5f5f5",
   };
+
   const containerStyle = {
     backgroundColor: "#ffffff",
     border: "2px solid #000000",
@@ -130,7 +131,7 @@ const App = () => {
       const topLanguages = calculateScores();
       setRecommendedLanguages(topLanguages);
       setLoading(false);
-    }, 2000); // 2 sekundy opóźnienia
+    }, 2000);
   };
 
   return (
@@ -143,7 +144,7 @@ const App = () => {
           justifyContent="center"
           my={4}
         >
-          <h2>Find best language for your preferences!</h2>
+          <h2>Find the best language for your preferences!</h2>
           <form onSubmit={handleRecommendLanguages} style={{ width: "100%" }}>
             <FormControl fullWidth margin="normal">
               <InputLabel>Project Type</InputLabel>
@@ -165,7 +166,7 @@ const App = () => {
             </FormControl>
 
             <FormControl fullWidth margin="normal">
-              <InputLabel>Language difficulty</InputLabel>
+              <InputLabel>Language Difficulty</InputLabel>
               <Select
                 name="difficulty"
                 value={inputData.difficulty}
@@ -192,7 +193,7 @@ const App = () => {
 
             {preferredLanguages.length > 0 && (
               <FormControl fullWidth margin="normal">
-                <InputLabel>Preffered language</InputLabel>
+                <InputLabel>Preferred Language</InputLabel>
                 <Select
                   name="preferredLanguage"
                   value={inputData.preferredLanguage}
@@ -226,7 +227,7 @@ const App = () => {
             {loading && isProcessing ? (
               <div style={{ width: "100%", margin: "50px" }}>
                 <CircularProgress size={80} />
-                <Typography variant="h6">Processing..</Typography>
+                <Typography variant="h6">Processing...</Typography>
               </div>
             ) : (
               <div style={{ width: "100%", margin: "50px" }}>
